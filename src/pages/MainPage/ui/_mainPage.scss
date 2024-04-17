@@ -1,0 +1,8 @@
+.main-page-content {
+  width: 100%;
+  padding: 64px 64px 0 64px;
+
+  & > *:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
