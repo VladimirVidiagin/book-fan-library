@@ -1,10 +1,10 @@
 import { useMutation } from "@apollo/client";
-import { UPDATE_TODO } from "../../apollo/books";
+import { UPDATE_BOOK } from "../../apollo/books";
 import { Book } from "../../app/store/books/actionTypes";
 import { FormValues } from "../../shared/books/formValues.types";
 
 export const useEditBook = () => {
-  const [editBook] = useMutation(UPDATE_TODO);
+  const [editBook] = useMutation(UPDATE_BOOK);
 
   const handleEditBook = (
     chosenBookData: Book | undefined,

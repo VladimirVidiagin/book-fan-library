@@ -37,7 +37,7 @@ export const ADD_BOOK = gql`
   }
 `;
 
-export const UPDATE_TODO = gql`
+export const UPDATE_BOOK = gql`
   mutation UpdateBook(
     $id: ID!
     $name: String!
